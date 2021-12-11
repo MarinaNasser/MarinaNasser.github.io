@@ -41,7 +41,8 @@ There are a certain set of rules for the declaration and initialization of the c
 
 ## 2. Const Keyword With Pointer Variables:
 When we use const with pointers, we can do it in three ways, which are as follows:
-   1) When the pointer variable point to a const value:
+  
+  1) When the pointer variable point to a const value:
    
 - 
          const data_type* var_name; 
