@@ -1,4 +1,5 @@
-# Const and & Report
+# Const and & 
+
 ## Const keyword:
 
 Constant is something that doesn't change. In C++ we use the keyword const to make program elements constant. const keyword can be used in many contexts in a C++ program. It can be used with:
@@ -7,10 +8,6 @@ Constant is something that doesn't change. In C++ we use the keyword const to ma
 3. Objects
 4. Methods
 5. Class Data members
-
-
-
-
 
 Whenever const keyword is attached with any variable, pointer variable, method and with the object of a class it prevents that specific object/method()/variable to modify its data items value.
 
@@ -40,9 +37,10 @@ There are a certain set of rules for the declaration and initialization of the c
 ----------
 
 ## 2. Const Keyword With Pointer Variables:
+
 When we use const with pointers, we can do it in three ways, which are as follows:
   
-  1) When the pointer variable point to a const value:
+ 1) When the pointer variable point to a const value:
    
 - 
          const data_type* var_name; 
@@ -57,11 +55,10 @@ The value that is stored in the pointer variable is modifiable, but the location
         int x = 1;
         int* const w = &x;
 ```
- Here, w is a pointer, which is const, that points to an int. Now we can't change the pointer, which means it will always point to the variable x but can change the value that it points to, by changing the value of x.
+Here, w is a pointer, which is const, that points to an int. Now we can't change the pointer, which means it will always point to the variable x but can change the value that it points to, by changing the value of x.
+The constant pointer to a variable is useful where you want a storage that can be changed in value but not moved in memory.
 
-  The constant pointer to a variable is useful where you want a storage that can be changed in value but not moved in memory.
-
-3) When const pointer pointing to a const variable:
+ 3) When const pointer pointing to a const variable:
 - 
       const data_type* const var_name;
 
@@ -92,8 +89,7 @@ Here, the const pointer variable points to the const variable. So, you are neith
 When a function is declared as const, it can be called on any type of object.
 There are two ways of a constant function declaration:
 
-
-1. Ordinary const-function Declaration:
+ 1. Ordinary const-function Declaration:
 
 ```ruby   
     const void foo(){}
@@ -103,9 +99,10 @@ There are two ways of a constant function declaration:
     foo(x);
     }
 ```
-2. A const member function of the class:
+ 2. A const member function of the class:
 
 A const member functions never modifies data members in an object.
+
 ```ruby
     class
     {
