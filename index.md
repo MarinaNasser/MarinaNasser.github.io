@@ -21,6 +21,7 @@ There are a certain set of rules for the declaration and initialization of the c
 
 
 ```ruby
+
     int main(){
 
     Const int i=10;
@@ -57,7 +58,6 @@ The value that is stored in the pointer variable is modifiable, but the location
 ```
 Here, w is a pointer, which is const, that points to an int. Now we can't change the pointer, which means it will always point to the variable x but can change the value that it points to, by changing the value of x.
 The constant pointer to a variable is useful where you want a storage that can be changed in value but not moved in memory.
-
  3) When const pointer pointing to a const variable:
 - 
       const data_type* const var_name;
