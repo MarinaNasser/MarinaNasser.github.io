@@ -61,7 +61,7 @@ The value that is stored in the pointer variable is modifiable, but the location
 
   The constant pointer to a variable is useful where you want a storage that can be changed in value but not moved in memory.
 
-  3) When const pointer pointing to a const variable:
+3) When const pointer pointing to a const variable:
 - 
       const data_type* const var_name;
 
@@ -91,7 +91,6 @@ Here, the const pointer variable points to the const variable. So, you are neith
 
 When a function is declared as const, it can be called on any type of object.
 There are two ways of a constant function declaration:
-
 
 
 1. Ordinary const-function Declaration:
@@ -154,11 +153,15 @@ int& r = k;
 int x;
 void* p = &x;
 ```
+
 3. & as a bit-wise operator
+
 ```ruby
 int a = 3 & 1; // a = 1
 ```
+
 4. && in a conditional expression
+
 ```ruby
 int a=1, b=1 ;
 
@@ -166,7 +169,9 @@ if((a==1) && (b==1)) print(True);
 
 else print(False);
 ```
+
 5. Pass an argument by reference to a function
+
 
 ```ruby
 void foo(int& x);
