@@ -1,4 +1,4 @@
-# Const and & 
+# Const and Ampersand in C++ 
 
 ## Const keyword:
 
