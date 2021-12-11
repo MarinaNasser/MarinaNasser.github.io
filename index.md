@@ -61,7 +61,7 @@ The value that is stored in the pointer variable is modifiable, but the location
  3) When const pointer pointing to a const variable:
  
 ```
-     const data_type* const var_name;
+        const data_type* const var_name;
 ```
 Here, the const pointer variable points to the const variable. So, you are neither allowed to change the const pointer variable nor the value stored at the location pointed by that pointer variable.\
 
