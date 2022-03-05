@@ -1,2 +1,2 @@
 # MarinaNasser.github.io
-Const and Ampersand in C++ GitHub page
+GitHub page Const and Ampersand in C++ explanation.
